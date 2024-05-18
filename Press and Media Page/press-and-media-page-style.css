@@ -1,0 +1,292 @@
+/*for Desktop --> START*/
+
+@media screen and (min-width:960px) {
+
+.press-and-media-title{
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    
+}
+.press-and-media-box{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.press-and-media-search{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.title-or-publisher{
+    width:42%; 
+    height:42px; 
+    border: 1px solid rgb(208, 208, 208); 
+    border-radius: 2px; 
+    padding: 20px; 
+    font-size: 18px; 
+    outline: none;
+
+}
+.title-or-publisher:focus{
+    border:1px solid black;
+    transition: 0.2s;
+}
+.recent-and-featured{
+    margin-top: 60px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 18px;
+    gap: 30px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+
+}
+.recent{
+    width:auto;
+    line-height: 50px;
+    cursor: pointer;
+
+}
+.featured{
+    width:auto;
+    line-height: 50px;
+    cursor: pointer;
+}
+.recent:hover{
+    color: rgb(153, 153, 153);
+    border-bottom: 3px solid rgb(83, 83, 83);
+    transition: 0.2s;
+}
+.featured:hover{
+    color: rgb(153, 153, 153);
+    transition: 0.2s;
+}
+.recent:focus{
+    border-bottom: 3px solid rgb(83, 83, 83);
+}
+.featured:focus{
+    border-bottom: 3px solid rgb(83, 83, 83);
+}
+.recent-years{
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    gap: 40px;
+    font-size: 20px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width:none;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    
+}
+.year-2023{
+    width: auto;
+    line-height: 50px;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+    font-weight: normal;
+    
+}
+.year-2022{
+    width: auto;
+    line-height: 50px;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+    font-weight: normal;
+    
+}
+.year-2021{
+    width: auto;
+    line-height: 50px;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+    font-weight: normal;
+    
+}
+.year-2020{
+    width: auto;
+    line-height: 50px;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+    font-weight: normal;
+    
+}
+.year-2019{
+    width: auto;
+    line-height: 50px;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+    font-weight: normal;
+    
+}
+.year-2018{
+    width: auto;
+    line-height: 50px;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+    font-weight: normal;
+    
+}
+.year-2017{
+    width: auto;
+    line-height: 50px;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+    font-weight: normal;
+    
+}
+.year-2016{
+    width: auto;
+    line-height: 50px;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+    font-weight: normal;
+    
+}
+.year-2015{
+    width: auto;
+    line-height: 50px;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+    font-weight: normal;
+    
+}
+.year-2014{
+    width: auto;
+    line-height: 50px;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+    font-weight: normal;
+    
+}
+.year-2013{
+    width: auto;
+    line-height: 50px;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+    font-weight: normal;
+    
+}
+.year-2012{
+    width: auto;
+    line-height: 50px;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+    font-weight: normal;
+    
+}
+.year-2011{
+    width: auto;
+    line-height: 50px;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.year-2023:hover{
+    color: rgb(153, 153, 153);
+}
+.year-2022:hover{
+    color: rgb(153, 153, 153);
+}
+.year-2021:hover{
+    color: rgb(153, 153, 153);
+}
+.year-2020:hover{
+    color: rgb(153, 153, 153);
+}
+.year-2019:hover{
+    color: rgb(153, 153, 153);
+}
+.year-2018:hover{
+    color: rgb(153, 153, 153);
+}
+.year-2017:hover{
+    color: rgb(153, 153, 153);
+}
+.year-2016:hover{
+    color: rgb(153, 153, 153);
+}
+.year-2015:hover{
+    color: rgb(153, 153, 153);
+}
+.year-2014:hover{
+    color: rgb(153, 153, 153);
+}
+.year-2013:hover{
+    color: rgb(153, 153, 153);
+}
+.year-2012:hover{
+    color: rgb(153, 153, 153);
+}
+.year-2011:hover{
+    color: rgb(153, 153, 153);
+}
+
+
+.year-2023:focus{
+    color:  rgb(43, 43, 43);
+    border:3px solid rgb(83, 83, 83);
+    background-color: red;
+}
+.year-2022:focus{
+    color:  rgb(43, 43, 43);
+    border:3px solid rgb(83, 83, 83);
+}
+.year-2021:focus{
+    color:  rgb(43, 43, 43);
+    border:3px solid rgb(83, 83, 83);
+}
+.year-2020:focus{
+    color:  rgb(43, 43, 43);
+    border:3px solid rgb(83, 83, 83);
+}
+.year-2019:focus{
+    color:  rgb(43, 43, 43);
+    border:3px solid rgb(83, 83, 83);
+}
+.year-2018:focus{
+    color:  rgb(43, 43, 43);
+    border:3px solid rgb(83, 83, 83);
+}
+.year-2017:focus{
+    color:  rgb(43, 43, 43);
+    border:3px solid rgb(83, 83, 83);
+}
+.year-2016:focus{
+    color:  rgb(43, 43, 43);
+    border:3px solid rgb(83, 83, 83);
+}
+.year-2015:focus{
+    color:  rgb(43, 43, 43);
+    border:3px solid rgb(83, 83, 83);
+}
+.year-2014:focus{
+    color:  rgb(43, 43, 43);
+    border:3px solid rgb(83, 83, 83);
+}
+.year-2013:focus{
+    color:  rgb(43, 43, 43);
+    border:3px solid rgb(83, 83, 83);
+}
+.year-2012:focus{
+    color:  rgb(43, 43, 43);
+    border:3px solid rgb(83, 83, 83);
+}
+.year-2011:focus{
+    color:  rgb(43, 43, 43);
+    border:3px solid rgb(83, 83, 83);
+}
+
+}
+/*for Desktop --> END*/

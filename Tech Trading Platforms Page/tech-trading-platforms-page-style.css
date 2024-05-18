@@ -1,0 +1,183 @@
+/*for Desktop --> START*/
+
+@media screen and (min-width:960px) {
+    .technology-text-section-box {
+        margin-top: 140px;
+        margin-bottom: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        text-align: center;
+    }
+
+    .investment-offerings-link {
+        color: rgb(0, 73, 175);
+    }
+
+    .investment-offerings-link:hover {
+        color: rgb(15, 15, 15);
+    }
+
+    .technology-menu-section-box {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        border-top: 1px solid rgb(218, 218, 218);
+        gap: 80px;
+    }
+
+    /*Kite Menu --> START*/
+
+    .kite-menu-box {
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+
+
+    }
+
+    .kite-menu-image-box{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .kite-menu-text-box{
+        width: 36%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        gap: 30px;
+        line-height: 30px;
+        padding: 30px;
+
+    }
+
+    .kite-demo-learn-btn-box{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        gap: 30px;
+
+    }
+
+    
+    .kite-demo-btn{
+        width: 120px;
+        height: 30px;
+        border: none;
+        border-radius: 4px;
+        background-color: rgb(34, 34, 34);
+
+    }
+    .kite-demo-btn:hover{
+        background-color: rgb(201, 201, 201);
+        transition: 0.4s;
+
+    }
+
+    .kite-demo-btn-link{
+        color: rgb(240, 240, 240);
+
+    }
+
+    .kite-demo-btn-link:hover{
+        color: black;
+        transition: 0.4s;
+
+    }
+
+    .kite-app-box{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        gap: 40px;
+    }
+
+
+    .kite-learn-btn{
+        width: 160px;
+        height: 30px;
+        border: none;
+        border-radius: 4px;
+        background-color: rgb(34, 34, 34);
+
+    }
+
+    .kite-learn-btn:hover{
+        background-color: rgb(201, 201, 201);
+        transition: 0.4s;
+    }
+
+    .kite-learn-btn-link{
+        color: rgb(240, 240, 240);
+
+    }
+
+    .kite-learn-btn-link:hover{
+        color: black;
+        transition: 0.4s;
+
+    }
+
+     /*Kite Menu --> END*/
+
+    
+    /*Console Menu --> START*/
+
+    .console-menu-box {
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 2px solid;
+
+    }
+    .console-menu-text-box{
+
+    }
+
+    .console-learn-btn{
+        width: 160px;
+        height: 30px;
+        border: none;
+        border-radius: 4px;
+        background-color: rgb(34, 34, 34);
+
+    }
+
+    .console-learn-btn:hover{
+        background-color: rgb(201, 201, 201);
+        transition: 0.4s;
+    }
+
+    .console-learn-btn-link{
+        color: rgb(240, 240, 240);
+
+    }
+
+    .console-learn-btn-link:hover{
+        color: black;
+        transition: 0.4s;
+
+    }
+    /*Console Menu --> END*/
+
+
+
+
+
+}
+
+/*for Desktop --> END*/
